@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aben-cha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aben-cha <aben-cha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/11 22:39:15 by aben-cha          #+#    #+#             */
-/*   Updated: 2023/12/11 22:51:47 by aben-cha         ###   ########.fr       */
+/*   Updated: 2024/05/20 16:58:06 by aben-cha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_check_line(const char *s, char c)
 {
-	while (*s)
+	while (s && *s)
 	{
 		if (*s == c)
 			return (1);
